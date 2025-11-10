@@ -37,7 +37,7 @@ const Dashboard = ({ role }) => {
 
   const handleSelectPDF = (doc) => {
     setSelectedFile({
-      url: `http://localhost:5000/${doc.filePath}`,
+      url: `https://pdf-annotation-app-izx1.onrender.com/${doc.filePath}`,
       id: doc._id,
       title: doc.title,
     });
@@ -141,7 +141,7 @@ const Dashboard = ({ role }) => {
             Select a PDF to view & annotate
           </div>
         )}
-      </div>    
+      </div>
     </div>
   );
 };
