@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://pdf-annotation-app-izx1.onrender.com",
 });
 
 //  DOCUMENT APIs
@@ -25,7 +25,7 @@ export const uploadDocuments = async (files, uploader) => {
   return res.data;
 };
 
-//  ANNOTATION APIs (later) 
+//  ANNOTATION APIs (later)
 export const fetchAnnotations = async (docId) => {
   const res = await API.get(`/annotations/${docId}`);
   return res.data;
