@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Glassmorphism background */
+body {
+  @apply bg-linear-to-br from-blue-100 via-white to-blue-50 min-h-screen;
+  font-family: "Inter", sans-serif;
+}
