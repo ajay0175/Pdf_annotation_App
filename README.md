@@ -10,6 +10,7 @@ Built using the **MERN stack** and deployed on **Render (Backend)** and **Netlif
 🌐 **Frontend (Netlify):** [https://https://pdfannotaionapp.netlify.app/](https://pdfannotaionapp.netlify.app/)  
 🖥️ **Backend (Render):** [https://pdf-annotation-app-izx1.onrender.com](https://pdf-annotation-app-izx1.onrender.com)
 
+
 > 🟢 The deployed app will remain active until **16th November 2025**.
 
 ---
@@ -28,7 +29,7 @@ Built using the **MERN stack** and deployed on **Render (Backend)** and **Netlif
     │ │ └── annotationController.js # Annotation logic
     │ ├── server.js # Express server entry
     │ ├── package.json
-    │ └── .env # Environment variables (not committed)
+    │ └── .env # Environment variables
     │
     ├── pdf-annotation-ui/
     │ ├── src/
@@ -70,7 +71,7 @@ PORT=5000
 
 Run the backend:
 ```
-npm start
+npx nodemon server.js
 ```
 Backend runs at → ``http://localhost:5000``
 
